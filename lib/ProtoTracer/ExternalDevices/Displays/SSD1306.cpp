@@ -257,6 +257,8 @@ void HeadsUpDisplay::Initialize() {
             // Handle initialization failure here
         }
 
+        display.setRotation(2);   // <-- add this
+
         display.setFont(&Picopixel);
 
         // Clear the buffer and display
